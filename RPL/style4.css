@@ -1,0 +1,124 @@
+*, *::after, *::before, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.menu {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a:first-child {
+    color: orange;
+}
+
+.menu a:not(:first-child):hover {
+    color: orange;
+}
+
+.btn button {
+    outline: none;
+    border: none;
+    padding: .7rem 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: orange
+}
+
+.btn button a {
+    color: white;
+
+}
+
+.container {
+    overflow: hidden;
+    padding: 1rem 5rem;
+}
+
+.show {
+    display: flex;
+    gap: 250px;
+}
+
+.show .text {
+    padding-top: 4rem;
+}
+
+.text h2 {
+    font-size: 4rem;
+}
+
+.text p {
+    color: #444;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5rem;
+    column-gap: 100px;
+    place-items: center;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.cart-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.cart-cri {
+    width: 150px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.c1 {
+    background-color: blue;
+}
+
+.c2 {
+    background-color: orange;
+}
+
+.c3 {
+    background-color: orangered;
+}
+
+.c4 {
+    background-color: cyan;
+}
